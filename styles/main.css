@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("../images/bg-pattern-bottom.svg");
+    background-size: 200px;
+}
+
+.main-container{
+    width: 89%;
+    height: 405px;
+    margin: 100px auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-cover-container .cover-container{
+    width: 100%;
+    height: 150px;
+    background-image: url("../images/bg-pattern-card.svg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-image-container div{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-image: url("../images/image-victor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid white ;
+    margin-top: -50px;
+    margin-left: calc(31%);
+}
+
+.main-information-container{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+
+
+.main-information-container .name-age-container{
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: center;
+}
+
+.main-information-container .name-age-container .name-age-container--name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.main-information-container .name-age-container .name-age-container--age{
+    margin-left: 10px;
+    color: hsl(227, 10%, 46%);
+}
+
+.location-container{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.main-stats-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-stats-container .numbers-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 4px;
+}
+
+.main-stats-container .stats-name-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding-right: 8px;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution{
+    text-align: center;
+    color: white;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: rgb(64, 228, 160)
+}
